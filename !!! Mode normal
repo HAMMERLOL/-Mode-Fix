@@ -172,17 +172,58 @@ end)()
      --NOT-A
   coroutine.wrap(function()
     while true do
-        wait(500)
+        wait(150)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://pastebin.com/raw/5Paz4pBC"))()
 end
 
 end)()
+
+
+
+--NOT-A
+  coroutine.wrap(function()
+    while true do
+        wait(260)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://pastebin.com/raw/5Paz4pBC"))()
+end
+
+end)()
+
+
+--NOT-A
+  coroutine.wrap(function()
+    while true do
+        wait(320)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://pastebin.com/raw/5Paz4pBC"))()
+end
+
+end)()
+
+--NOT-A
+  coroutine.wrap(function()
+    while true do
+        wait(410)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://pastebin.com/raw/5Paz4pBC"))()
+end
+
+end)()
+
+
+
+
+
    --Hunger-S
 coroutine.wrap(function()
     while true do
-        wait(90)
+        wait(120)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://pastebin.com/raw/ehB1ePYQ"))()
@@ -193,7 +234,7 @@ end)()
    --Hunger-S
 coroutine.wrap(function()
     while true do
-        wait(190)
+        wait(230)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://pastebin.com/raw/ehB1ePYQ"))()
@@ -204,7 +245,7 @@ end)()
 --Hunger-S
 coroutine.wrap(function()
     while true do
-        wait(280)
+        wait(310)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 
