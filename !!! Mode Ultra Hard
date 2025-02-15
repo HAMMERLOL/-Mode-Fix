@@ -179,47 +179,71 @@ loadstring(game:HttpGet("https://pastebin.com/raw/5Paz4pBC"))()
 end
 
 end)()
-   
-     --Hunger-S
-  coroutine.wrap(function()
+
+    --Hunger-S 
+coroutine.wrap(function()
     while true do
         wait(50)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://pastebin.com/raw/FNNv3DQe"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/ehB1ePYQ"))()
 end
 
 end)()
-     
-     --Hunger-S
-  coroutine.wrap(function()
+
+   --Hunger-S 
+coroutine.wrap(function()
     while true do
-        wait(100)
+        wait(90)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://pastebin.com/raw/FNNv3DQe"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/ehB1ePYQ"))()
 end
 
 end)()
 
-    --Hunger-S
-  coroutine.wrap(function()
+    --Hunger-S 
+coroutine.wrap(function()
     while true do
         wait(180)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://pastebin.com/raw/FNNv3DQe"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/ehB1ePYQ"))()
 end
 
 end)()
 
-    --Hunger-S
-  coroutine.wrap(function()
+    --Hunger-S 
+coroutine.wrap(function()
     while true do
         wait(240)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://pastebin.com/raw/FNNv3DQe"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/ehB1ePYQ"))()
+end
+
+end)()
+
+
+    --Hunger-S 
+coroutine.wrap(function()
+    while true do
+        wait(320)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://pastebin.com/raw/ehB1ePYQ"))()
+end
+
+end)()
+
+
+   --Hunger-S 
+coroutine.wrap(function()
+    while true do
+        wait(420)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://pastebin.com/raw/ehB1ePYQ"))()
 end
 
 end)()
@@ -262,8 +286,8 @@ local entity = Spawner.createEntity({
     SpawnInFront = false,
     ShatterLights = false,
     FlickerLights = {
-        Enabled = false,
-        Duration = 0
+        Enabled = true,
+        Duration = 80
     },
     Cycles = {
         Min = 1,
