@@ -127,7 +127,7 @@ end)()
      --FAKER
   coroutine.wrap(function()
     while true do
-        wait(200)
+        wait(120)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://pastebin.com/raw/f4gjPb83"))()
@@ -138,7 +138,7 @@ end)()
     --FAKER
   coroutine.wrap(function()
     while true do
-        wait(290)
+        wait(240)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://pastebin.com/raw/f4gjPb83"))()
@@ -193,7 +193,7 @@ end)()
    --Hunger-S
 coroutine.wrap(function()
     while true do
-        wait(170)
+        wait(190)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://pastebin.com/raw/ehB1ePYQ"))()
