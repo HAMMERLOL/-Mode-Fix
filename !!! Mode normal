@@ -179,47 +179,36 @@ loadstring(game:HttpGet("https://pastebin.com/raw/5Paz4pBC"))()
 end
 
 end)()
-   
-     --Hunger-S
-  coroutine.wrap(function()
+   --Hunger-S
+coroutine.wrap(function()
     while true do
-        wait(160)
+        wait(90)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://pastebin.com/raw/FNNv3DQe"))()
-end
-
-end)()
-     
-     --Hunger-S
-  coroutine.wrap(function()
-    while true do
-        wait(250)
-        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(0)
-loadstring(game:HttpGet("https://pastebin.com/raw/FNNv3DQe"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/ehB1ePYQ"))()
 end
 
 end)()
 
-    --Hunger-S
-  coroutine.wrap(function()
+   --Hunger-S
+coroutine.wrap(function()
     while true do
-        wait(320)
+        wait(170)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://pastebin.com/raw/FNNv3DQe"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/ehB1ePYQ"))()
 end
 
 end)()
 
-    --Hunger-S
-  coroutine.wrap(function()
+--Hunger-S
+coroutine.wrap(function()
     while true do
-        wait(420)
+        wait(280)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://pastebin.com/raw/FNNv3DQe"))()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/ehB1ePYQ"))()
 end
 
 end)()
@@ -230,133 +219,11 @@ end)()
         wait(250)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-local cue2 = Instance.new("Sound")
-	cue2.Parent = game.Workspace
-	cue2.Name = "Spawn"
-	cue2.SoundId = "rbxassetid://2738830850"
-	cue2.Volume = 50
-	cue2.PlaybackSpeed = 30
-	cue2:Play()
-game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(0, 255, 0)
-game.Lighting.MainColorCorrection.Contrast = 25
-local tween = game:GetService("TweenService")
-tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(9), {Contrast = 0}):Play()
-local TweenService = game:GetService("TweenService")
-local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(1),{TintColor = Color3.fromRGB(255, 255, 255)})
-TW:Play()
-wait(1)
----====== Define spawner ======---
- 
-local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
- 
----====== Create entity ======---
- 
-local entity = Spawner.createEntity({
-    CustomName = "Hunger True Form",
-    Model = "https://github.com/PABMAXICHAC/doors-monsters-models/blob/main/hunger.rbxm?raw=true",
-    Speed = 18,
-    MoveDelay = 5,
-    HeightOffset = 5,
-    CanKill = true,
-    KillRange = 20,
-    SpawnInFront = false,
-    ShatterLights = false,
-    FlickerLights = {
-        Enabled = false,
-        Duration = 0
-    },
-    Cycles = {
-        Min = 1,
-        Max = 1,
-        Delay = 3
-    },
-    CamShake = {
-        Enabled = true,
-        Values = {1.5, 20, 0.1, 1},
-        Range = 100
-    },
-    ResistCrucifix = false,
-    BreakCrucifix = true,
-    DeathMessage = {"You died to Hunger True Form", " How to Surviver?", "try to run or hide.."},
-    IsCuriousLight = true
-})
- 
----====== Debug ======---
- 
-entity.Debug.OnEntitySpawned = function()
-    print("Entity has spawned")
-end
- 
-entity.Debug.OnEntityDespawned = function()
-    print("Entity has despawned")
-end
- 
-entity.Debug.OnEntityStartMoving = function()
-    print("Entity started moving")
-end
- 
-entity.Debug.OnEntityFinishedRebound = function()
-    print("Entity finished rebound")
-end
- 
-entity.Debug.OnEntityEnteredRoom = function(room)
-    print("Entity entered room:", room)
-end
- 
-entity.Debug.OnLookAtEntity = function()
-    print("Player looking at entity")
-end
- 
-entity.Debug.OnDeath = function()
-    print("Player has died")
-local jumpscare = Instance.new("Sound")
-	jumpscare.Parent = game.Workspace:WaitForChild("Hunger True Form")
-	jumpscare.Name = "Jumpscare"
-	jumpscare.SoundId = ""
-	jumpscare.Volume = 1
-	jumpscare.PlaybackSpeed = 1
-	jumpscare:Play()
-wait(0.001)
-local func, setupval, getinfo, typeof, getgc, next = nil, debug.setupvalue or setupvalue, debug.getinfo or getinfo, typeof, getgc, next
- 
-for i,v in next, getgc(false) do
-    if typeof(v) == "function" then
-        local info = getinfo(v)
-        if info.currentline == 54 and info.nups == 2 and info.is_vararg == 0 then
-            func = v
-            break
-        end
-    end
-end
- 
-local function DeathHint(hints, type: string)
-    setupval(func, 1, hints)
-    if type ~= nil then
-        setupval(func, 2, type)
-    end
-end
- 
-DeathHint({
-    "You died to Hunger True Form",
-    "It appear at when you Listen scream",
-    "Try to run or hide..",
-}, "Blue") -- "Blue" or "Yellow"
-end
- 
---[[
-    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
- 
-    entity.Debug.OnUseCrucifix = function()
-        print("Custom crucifixion script here")
-    end
-]]--
- 
----====== Run entity ======---
- 
-Spawner.runEntity(entity)
+loadstring(game:HttpGet("https://pastebin.com/raw/CqbSHDNv"))()
 end
 
 end)()
+
 
    --@#≠✓™}×¶
 
