@@ -224,6 +224,28 @@ end
 
 end)()
 
+    --Hunger True Form
+  coroutine.wrap(function()
+    while true do
+        wait(400)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://pastebin.com/raw/CqbSHDNv"))()
+end
+
+end)()
+
+  --Hunger True Form
+  coroutine.wrap(function()
+    while true do
+        wait(570)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://pastebin.com/raw/CqbSHDNv"))()
+end
+
+end)()
+
 
    --@#≠✓™}×¶
 
